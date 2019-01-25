@@ -1,0 +1,17 @@
+{
+    //required
+    "manifest_version": 2,
+    "name": "TACT POPUP",
+    "version": "1.0",
+
+    //additional
+    "description": "POPUP FOR TACT",
+    "icons": {
+        "128": "icon.png"
+    },
+
+    //action : either one othe three - B.A or P.A or B.G
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

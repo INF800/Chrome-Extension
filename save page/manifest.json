@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "save page",
+    "version": "1.0",
+    "description": "this will save the current webpage",
+    "icons":{
+        "128": "icon.png"
+    },
+
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+
+
+}

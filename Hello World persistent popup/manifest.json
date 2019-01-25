@@ -1,0 +1,12 @@
+{
+    "name": "Hello World",
+    "version": "1.0",
+    "description" : "pops HELLO WORLD in all websites",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}

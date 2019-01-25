@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "budget manager",
+    "version": "1.0",
+    "description": "collects budget info and checks if budget exeeds",
+    "icons": {
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+
+    "options_page": "options.html",
+    
+    "permissions": [
+        "storage" //for chrome storage
+    ]
+}
